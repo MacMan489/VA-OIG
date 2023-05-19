@@ -1,0 +1,25 @@
+SQL Code:
+
+sql
+Copy code
+CREATE TABLE employees (
+    employee_id INT PRIMARY KEY,
+    employee_name VARCHAR(100),
+    department_id INT,
+    salary DECIMAL(10, 2)
+);
+Description:
+This SQL code is used to create a table called "employees" with four columns: "employee_id," "employee_name," "department_id," and "salary." 
+The "employee_id" column is designated as the primary key, ensuring that each employee record has a unique identifier. 
+The "employee_name" column stores the name of the employee as a string. The "department_id" column stores the ID of the department to 
+which the employee belongs. The "salary" column stores the salary of the employee as a decimal number.
+
+Business Value:
+The creation of this table provides a structured and organized way to store employee information within a database. 
+It allows businesses to efficiently manage and retrieve employee data, perform various types of analysis 
+(e.g., salary calculations, department-wise statistics), and generate reports. 
+Having a unique primary key ensures that each employee has a distinct identifier, enabling reliable identification and 
+referencing in other tables or systems. This SQL code forms the foundation for storing and managing employee-related data, 
+which is vital for human resources, payroll, and overall workforce management.
+
+
